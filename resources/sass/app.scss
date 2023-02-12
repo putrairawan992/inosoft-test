@@ -1,0 +1,131 @@
+@import "~bootstrap/scss/functions";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&family=Roboto:400,500,600,700&family=Playfair+Display:400,600,700&display=swap');
+
+// Variables
+@import 'variables';
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// @import '~bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+@import "box";
+@import "card";
+@import "input";
+@import "buttons";
+@import "scroller";
+@import "table";
+@import "nav";
+@import "modal";
+
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+.form-control::placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::-ms-input-placeholder {
+    color: #D9D9D9;
+    opacity: 1;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.bg-gradient {
+    background: linear-gradient(180deg, #d0eced 0%, #93c2cb 100%);
+}
+
+.cast-shadow {
+    box-shadow: 5px 5px 5px 0px rgba(196, 196, 196, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(196, 196, 196, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(196, 196, 196, 0.75);
+}
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D9D9D9;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #D9D9D9;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #D9D9D9;
+}
+
+
+.shadow--soft {
+    box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.1);
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.fsz-10px {
+    font-size: 10px !important;
+}
+.fsz-12px {
+    font-size: 12px !important;
+}
+.fsz-14px {
+    font-size: 14px !important;
+}
